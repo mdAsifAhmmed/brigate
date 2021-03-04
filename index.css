@@ -1,0 +1,1314 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+}
+header
+{
+	overflow:hidden;
+}
+header {
+    position: static;
+    top: 50px;
+    background: #ffffff;
+    box-shadow: 0px -1px 6px #0000002b;
+	z-index: 1;
+
+}
+#submenus{
+
+    top: 8rem;
+    overflow: hidden;
+}
+.contenerWhapper {
+    overflow: hidden;
+	background: #f5f5f5;
+
+}
+.contener {
+    width: 1200px;
+    margin: auto;
+}
+.headerBoxOne {
+   overflow: hidden;
+}
+.namberBox {
+    float: left;
+    width: 215px;
+	padding: 15px;
+	border-left: 1px solid #e0e0e0;
+}
+.namberBox a i {
+    margin-right: 10px;
+
+}
+.namberBox a {
+    text-decoration: none;
+    color: #000000d9;
+}
+.phoneIcon {
+    float: left;
+    color: #fb5200;
+	margin-left: 13px;
+}
+.emailIcon
+{
+    float: left;
+    color: #fb5200;
+	margin-right: 10px;
+}
+.mailBoxa a i {
+    margin-right: 10px;
+
+}
+.mailBox a {
+    text-decoration: none;
+    color: #000000d9;
+}
+.mailBox
+ {
+    float: left;
+    width: 756px;
+    padding: 15px;
+	border-left: 1px solid #e0e0e0;
+}
+.iconBox {
+    float: left;
+
+}
+.iconBox ul li {
+    float: left;
+    list-style: none;
+    padding: 15px;
+    border-left: 1px solid #e0e0e0;
+}
+.iconBox ul li:first-child a {
+    color: #463c3c;
+}
+
+.iconBox ul li:nth-child(2) a
+{
+    color: #463c3c;
+}
+
+.iconBox ul li:last-child a
+{
+	 color: #463c3c;
+}
+.iconBox ul li:hover a i
+{
+	color:#fb5200;
+
+}
+.iconBox ul li:last-child {
+    border-right: 1px solid #e0e0e0;
+}
+.headerBoxTwo {
+    padding: 14px 0px;
+    display: table;
+    width: 100%;
+}
+.logo {
+    float: left;
+    width: 459px;
+
+}
+
+.mailMenu ul li {
+    float: left;
+    padding: 15px;
+    list-style: none;
+    position: relative;
+}
+.mailMenu ul li a:hover  {
+	color:#fb5200;
+	overflow: hidden;
+
+
+}
+.mailMenu ul li a h1
+{
+	display:none;
+}
+.mailMenu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.mailMenu ul li a i {
+    margin-left: 5px;
+    font-size: 13px;
+}
+.menuFutterBoxOne {
+    width: 100px;
+    background: #f9f5f5;
+    text-align: center;
+    display: none;
+}
+/* SubMenu ......*/
+
+ul.SubMenu {
+    width: 250px;
+    position: fixed;
+    background: #fff;
+    top: 128px;
+    border-top: 1px solid whitesmoke;
+    padding: 20px;
+		transition: 0.3s;
+    transform: scaleY(0);
+    visibility: hidden;
+		transform-origin: top;
+}
+ul.SubMenu li {
+    float: none;
+    padding: 8px 0px;
+    padding-left: 4px;
+}
+
+ul.SubMenu li a:hover{
+	color: none;
+}
+ul.SubMenu li a {
+    color: #6b6b6b;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 7px;
+    font-weight: 600;
+}
+ul.SubMenu li a:before {
+    content: "";
+    display: inline-block;
+    background: #fb5200;
+    width: 0px;
+    vertical-align: middle;
+    margin-right: 10px;
+		transition: .6s;
+}
+ul.SubMenu li:hover a:before{
+	width: 15px;
+	padding: 1px;
+}
+.mailMenu ul li:hover ul.SubMenu{
+  visibility: visible;
+	transform: scaleY(0.9);
+}
+
+/*SubMenu........*/
+/* header is finishin */
+#SetOne
+{
+
+
+}
+.SetOneWhapper
+{
+	background:url(img/homeSalider/slide-1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.SetOneFullBox {
+    padding: 110px 0px;
+    width: 484px;
+}
+
+.SetOneH1Box {
+    padding: 34px 0px;
+    text-transform: uppercase;
+    line-height:52px;
+    font-size: 26px;
+    color: white;
+	  font-family: Oswald;
+    font-weight: 900;
+}
+.SetOnePbox {
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+	font-family: Oswald;
+    font-weight: 500;
+}
+
+.SetOneButton {
+	  padding-top: 30px;
+}
+
+.SetOneButton button {
+    padding: 15px 41px;
+    border: none;
+    border-radius: 5px;
+  	background: #fb5200;
+  	font-family: Oswald;
+    font-weight: 900;
+		transition: 0.5s;
+}
+
+.SetOneButton button:hover {
+    background: #252525;
+	  cursor:pointer;
+}
+.SetOneButton button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* SetOne is finish */
+
+.SetTowWhapper {
+    padding: 100px 0px;
+	  background: #f5f6f6;
+}
+.settowfullbox {
+    overflow: hidden;
+}
+.SetTowMeinBox {
+    width: 239px;
+    float: left;
+    background: white;
+    overflow: hidden;
+    margin: 0px 25px;
+    text-align: center;
+  	padding: 32px 0px;
+		border-radius: 3px;
+		transition: 0.6s;
+}
+.SetTowMeinBox:hover
+{
+   background:#fb5200;
+	 color:#ffffff !import;
+	 box-shadow: 0px 0px 13px #afafafc7;
+}
+.SetTowMeinBox:nth-child(2) {
+	background: #fb5200;
+
+}
+.SetTowMeinBox:nth-child(2) i
+{
+color:#ffffff;
+}
+.SetTowMeinBox:nth-child(2) h1
+{
+	color:#ffffff;
+}
+.SetTowMeinBox:nth-child(2) p
+{
+	color:#ffffff;
+}
+.SetTowMeinBox:nth-child(2) span
+{
+	color:#ffffff;
+}
+.SetTowMeinBox:hover i
+{
+color:#ffffff;
+}
+.SetTowMeinBox:hover h1
+{
+	color:#ffffff;
+}
+.SetTowMeinBox:hover p
+{
+	color:#ffffff;
+}
+.SetTowMeinBox:hover span
+{
+	color:#ffffff;
+}
+.SetTowBoxIcon {
+	font-size: 38px;
+	color:#fb5200;
+}
+
+
+.SetTowMeinBox p {
+    padding: 0px 18px;
+    color: #7d7d7d;
+    word-spacing: 3px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.SetTowMeinBox h1 {
+    font-family: Oswald;
+    font-size: 22px;
+    font-weight: 500;
+    color: #424242;
+    padding: 24px;
+}
+.SetTowMeinBox span {
+    overflow: hidden;
+	color: #fb5200;
+}
+.SetTowMeinBox span i {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.SetOneMiniButton div {
+    width: 4px;
+    background: #fb5200;
+    border: 2px solid #fb5200;
+    border-radius: 50px;
+    font-size: 10px;
+    padding: 3px;
+    height: 4px;
+    float: left;
+    margin: 0px 3px;
+}
+.SetOneMiniButton div:last-child {
+	background:none;
+	border: 2px solid #fb5200;
+}
+.SetOneMiniButton {
+    margin: auto;
+    padding-left: 543px;
+    padding-bottom: 50px;
+}
+/* settow is finish */
+
+
+
+.SetThreeImgBox img {
+    width: 100%;
+}
+.SetThreeImgBox {
+    width: 596px;
+	float: left;
+}
+
+.SetThreeWhapper {
+    padding: 100px 0px;
+	overflow:hidden;
+}
+
+.SetThreeTextBox {
+    width: 412px;
+    float: left;
+    margin-left: 72px;
+}
+.SetThreeTextBox h1 {
+    font-size: 31px;
+    padding: 26px 0px;
+    font-family: oswald;
+    font-weight: 600;
+}
+.SetThreeTextBox p {
+    color: #868686;
+    margin-bottom: 16px;
+    line-height: 23px;
+}
+.SetThreeTextBox ul {
+    margin: 36px 0px;
+}
+.SetThreeTextBox ul li {
+    list-style: none;
+    float: left;
+    width: 201px;
+    padding: 10px 0px;
+}
+
+.SetThreeTextBox ul li i {
+    font-size: 13px;
+    margin-right: 8px;
+}
+.SetThreeTextBox ul li:hover {
+    color: #fb5200;
+}
+.SetThreeTextBox button {
+    border: none;
+    background: #fb5200;
+    padding: 15px 27px;
+    border-radius: 2px;
+    margin-top: 18px;
+		transition: 0.5s;
+}
+.SetThreeTextBox button:hover {
+    background: #585858;
+}
+.SetThreeTextBox button a {
+    text-decoration: none;
+    color: #ffffff;
+    background: none;
+}
+/* setThree is finish */
+
+#SetForeImg
+{
+	background:url(img/imgTwo/why-choose-us1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+
+
+.SetForeFullBoxWhapper {
+    background: linear-gradient(45deg, #00000087, #00000087);
+
+}
+.SetforeBox {
+    float: left;
+    width: 280px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 76px 0px;
+}
+.SetForeMeinBox {
+    overflow: hidden;
+}
+.SetForeIconBox {
+    font-size: 33px;
+    margin: 18px;
+}
+
+.SetForeH1Box {
+    font-size: 34px;
+    margin: 13px 0px;
+}
+.SetForeSpanBox {
+    font-size: 19px;
+    font-family: oswald;
+    font-weight: 700;
+}
+
+/* setFore is finish */
+
+.SetFiveFullBoxWhapper {
+    padding: 80px 0px;
+    overflow: hidden;
+	background: #f5f6f6;
+}
+.scText {
+    margin: auto;
+    text-align: center;
+    width: 492px;
+	padding-bottom: 30px;
+}
+.scText h1 {
+    font-size: 35px;
+    font-family: oswald;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.scText div {
+    width: 53px;
+    border: 2px solid #ff4000;
+    margin: 10px 0px;
+    overflow: hidden;
+    margin-left: 43%;
+}
+.scText p {
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #737373;
+    font-family: work sans;
+}
+.SetFiveBox {
+    overflow: hidden;
+    width: 266px;
+    float: left;
+    padding: 17px;
+}
+.SetFiveBoxImg img {
+    width: 100%;
+}
+.SetFiveBox h1 {
+    font-size: 21px;
+    word-spacing: 4px;
+    font-family: oswald;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.SetFiveBox p {
+    font-size: 18px;
+    color: #737373;
+    font-family: 'work sans';
+    font-weight: 300;
+}
+/* setfive is finish */
+
+.SetsixeContenerWhapper
+{
+	 padding: 80px 0px;
+	 overflow: hidden;
+}
+
+.scText {
+    margin: auto;
+    text-align: center;
+    width: 492px;
+    padding-bottom: 30px;
+}
+
+.scText h1 {
+    font-size: 35px;
+    font-family: oswald;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.scText div {
+    width: 53px;
+    border: 2px solid #ff4000;
+    margin: 10px 0px;
+    overflow: hidden;
+    margin-left: 43%;
+}
+.scText p {
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #737373;
+    font-family: work sans;
+}
+.SetSixeBox {
+    width: 331px;
+    float: left;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    margin: 18px;
+    padding: 15px;
+	box-shadow: -4px 9px 28px #e4e4e4;
+}
+.SetSixeBox span {
+    font-size: 22px;
+    font-family: work sans;
+    font-weight: 600;
+}
+.SetSixeBox h1 {
+    font-size: 53px;
+	font-family: oswald;
+	padding: 10px;
+}
+.SetSixeBox h3 {
+    font-family: oswald;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0px 6px;
+}
+.SetSixeBox ul {
+    list-style: none;
+}
+.SetSixeBox ul li a {
+    text-decoration: none;
+    color: #3333338f;
+}
+.SetSixeBox ul li {
+    padding: 10px;
+}
+.SetSixeBox ul li a i {
+    font-size: 12px;
+    padding: 0px 5px;
+    color: #fb5200;
+}
+.SetSixeBox button {
+    border: none;
+    padding: 12px 35px;
+    font-size: 17px;
+    margin: 19px;
+    font-family: oswald;
+    border-radius: 3px;
+    background: #fb5200;
+    color: white;
+		transition: 0.5s;
+}
+.SetSixeBox button:hover {
+    background:#252525;
+    cursor: pointer;
+}
+
+.SetSixeBox:first-child
+{
+	box-shadow: -4px 11px 15px #cacaca;
+}
+.SetSixeBox:nth-child(3)
+{
+
+	box-shadow: 0px 14px 33px #e4e4e4;
+}
+.SetSixeBox:last-child
+{
+
+	box-shadow: 4px 9px 28px #e4e4e4;
+}
+/* setSixe is finish */
+
+#ideas {
+    overflow: hidden;
+    position: relative;
+}
+.SetSevenFullBox {
+    overflow: hidden;
+}
+
+.SetSevenImgBox {
+    width: 50%;
+    float: left;
+    position: absolute;
+    background: url(img/imgFore/s02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+
+.SetSevenTextBox {
+    overflow: hidden;
+    background: #222222;
+    color: white;
+    font-family: oswald;
+    width: 50%;
+    float: right;
+
+}
+.SetSevenSingleBox {
+    float: left;
+    overflow: hidden;
+    padding: 0px 70px;
+    padding-bottom: 68px;
+}
+.SetSevenTex {
+    overflow: hidden;
+    padding: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+.SetSevenTex h1 {
+    padding: 7px 0px;
+    padding-top: 0px;
+    font-size: 33px;
+    font-weight: 600;
+}
+.SetSevenTex p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: oswald;
+    line-height: 30px;
+    color: #dedada;
+}
+
+.SetSevenMeinBox {
+    float: left;
+    width: 325px;
+    overflow: hidden;
+    margin-bottom: 45px;
+	transition:0.5s;
+}
+.SetSevenMeinBox:nth-child(3) {
+	margin-bottom:0px;
+}
+.SetSevenMeinBox:last-child {
+
+	margin-bottom:0px;
+}
+
+
+.SetSevenIcon {
+    float: left;
+    overflow: hidden;
+    font-size: 35px;
+    color: #fb2400;
+    padding-right: 25px;
+}
+.SetSevenBoxText {
+    float: left;
+    overflow: hidden;
+}
+.SetSevenBoxText h2 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-family: oswald;
+    font-weight: 500;
+	transition:0.5s;
+}
+.SetSevenBoxText span {
+    font-size: 17px;
+    font-family: work sans;
+    margin-top: 20px;
+    color: #c1c1c1;
+}
+.SetSevenMeinBox:hover .SetSevenBoxText h2 {
+    color: #fb2400;
+}
+/* setSeven is finish */
+.SetEightWhapper {
+    padding: 80px 0px;
+}
+.SetEightWhapper{
+    padding: 80px 0px;
+    overflow: hidden;
+}
+.SetEightSingleBox {
+    width: 278px;
+    overflow: hidden;
+    float: left;
+    margin: 10px;
+}
+.SetEightImg img {
+    width: 100%;
+}
+.SetEightSingleBoxText {
+    border-bottom: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+.SetEightSingleBox {
+    width: 278px;
+    overflow: hidden;
+    float: left;
+    margin: 10px;
+    border: 1px solid #eae4e4;
+    border-radius: 3px;
+}
+.SetEightText {
+    padding: 20px;
+    text-align: center;
+}
+.SetEightText h2 {
+    font-size: 20px;
+    font-family: oswald;
+    font-weight: 500;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.SetEightText p {
+    font-size: 14px;
+    font-family: oswald;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #7d7d7d;
+}
+.SetEightButtonBox button {
+    padding: 13px 37px;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-family: oswald;
+    font-weight: 900;
+    background: #252525;
+    color: #ffffff;
+    word-spacing: 2px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+.SetEightButtonBox button:hover {
+	background:#ff4000;
+	cursor:pointer;
+}
+.SetEightButtonBox {
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+    padding-top: 42px;
+}
+.SetEightImg {
+    overflow: hidden;
+    position: relative;
+}
+.SetEightIcon {
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+.SetEightIcon a i {
+    padding: 3px;
+}
+.SetEightIcon a {
+    width: 22px;
+    height: 22px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    background: red;
+    place-items: center;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 4px;
+    color: #fff;
+    margin: 3px;
+}
+.SetEightIcon a:first-child{
+	background:#3b5998;
+	opacity:0;
+	transition:0.90s;
+}
+.SetEightIcon a:nth-child(2){
+	background:#00acee;
+	opacity:0;
+	transition:0.70s;
+}
+.SetEightIcon a:nth-child(3){
+	background:#db4a39;
+	opacity:0;
+	transition:0.50s;
+}
+.SetEightIcon a:last-child{
+	background:#0072b1;
+	opacity:0;
+	transition:0.30s;
+}
+
+.SetEightSingleBox:hover .SetEightIcon a:first-child{
+	transform:translatey(15px);
+	opacity:1;
+}
+.SetEightSingleBox:hover .SetEightIcon a:nth-child(2){
+	transform:translatey(15px);
+	opacity:1;
+}
+.SetEightSingleBox:hover .SetEightIcon a:nth-child(3){
+	transform:translatey(15px);
+	opacity:1;
+}
+.SetEightSingleBox:hover .SetEightIcon a:last-child{
+	transform:translatey(15px);
+	opacity:1;
+}
+.SetEightIcon a:hover{
+	color:black;
+	background:#fff;
+}
+
+
+/* setEight is finish */
+.SetNineWhapper{
+	background:#f5f6f6;
+	padding: 80px 0px;
+}
+
+
+.ProjetWhapper {
+    overflow: hidden;
+	column-count: 3;
+}
+.SingleProjet {
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+	position: relative;
+	margin-bottom: 30px;
+	transition:0.5s;
+}
+
+
+.SingleProjet img{
+    width: 100%;
+}
+.ProjetInfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(#25202000, #333333);
+    padding: 30px 30px;
+    overflow: hidden;
+    color: #FFF;
+    transition:0.3s;
+}
+
+.ProjetMeta {
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: -50px;
+	transition:0.7s;
+}
+.ProjetMeta a {
+    color: #fff;
+    font-family: oswald;
+}
+.ProjetMeta h3 {
+    font-family: oswald;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 11px 0px;
+}
+#LoneMoreInfo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: oswald;
+    font-weight: 300;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: block;
+    transform: translateX(-150px);
+	visibility:hidden;
+}
+#LoneMoreInfo i {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.SingleProjet:hover  .ProjetMeta
+{
+	padding-bottom:60px;
+
+}
+.SingleProjet:hover  #LoneMoreInfo
+{
+	visibility:visible;
+	transition:0.3s;
+    transition-delay:0.3s;
+    transition-timing-function: cubic-bezier(0, 1.25, 0.99, 1.01);
+    transform: translateX(0px);
+}
+/* setNine is finish */
+.NewsFullBox
+{
+	padding: 80px 0px;
+	overflow: hidden;
+}
+.NewsSingleBox {
+    overflow: hidden;
+    width: 374px;
+    float: left;
+    margin-right: 36px;
+    border: 1px solid #f1f1f1;
+	cursor:pointer;
+}
+.NewsSingleBox:last-child {
+	margin-right: 0px;
+}
+.NewsImg img {
+    width: 100%;
+	transition:0.3s;
+}
+.NewsImg{
+	overflow:hidden;
+}
+.NewsSingleBox:hover img {
+	transform:scale(1.2);
+}
+.NewsDate a {
+    float: left;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.NewsDate {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.NewsTitale {
+    font-family: oswald;
+}
+.NewsDate a:first-child {
+    color: #989898;
+}
+.NewsDate a:last-child {
+    color: #656565;
+}
+.NewsDate div {
+    width: 18px;
+    color: #fb4000;
+    border: 1px solid;
+    margin-top: 9px;
+    margin-right: 15px;
+    float: left;
+}
+.NewsTitelFullBox {
+    padding: 29px;
+}
+.NewsTitale h1 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #2d2d2d;
+}
+.NewsTitale h1:hover {
+	color:#fb2400;
+	cursor:pointer;
+}
+.NewsTitale p {
+    font-size: 20px;
+    margin: 15px 0px;
+    color: #989898;
+    font-family: none;
+}
+.NewsTitale a {
+    text-decoration: none;
+    color: #fb4000;
+    font-size: 15px;
+    font-family: none;
+    font-weight: 700;
+}
+.NewsTitale a i {
+    font-size: 12px;
+    margin-left: 10px;
+}
+/* setTen is finish */
+.LastSetWhapper {
+    position: relative;
+    margin-bottom: -100px;
+}
+.LastSetFullBox {
+    background: #fb5200;
+    overflow: hidden;
+    padding: 0px 50px;
+    border-radius: 3px;
+}
+.LastSetBox {
+    width: 360px;
+    float: left;
+    padding: 35px 0px;
+}
+.LastSetTaittel {
+    font-family: 'Oswald';
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.LastSetSearch input {
+    width: 233px;
+    padding: 15px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border: navajowhite;
+}
+.LastSetButtn {
+    position: absolute;
+    top: 91px;
+    left: 418px;
+}
+.LastSetButtn button {
+    padding: 11px;
+    width: 120px;
+    border-radius: 50px;
+    border: navajowhite;
+    background: radial-gradient(black, #000000);
+    color: white;
+    font-family: 'Oswald';
+    font-size: 16px;
+}
+.LastSetButtn button:hover {
+
+ cursor: pointer;
+}
+.LastSetTex span {
+    float: left;
+    padding-bottom: 2px;
+    color: aliceblue;
+    font-weight: 300;
+		width: 300px;
+}
+
+.LastSetTex span:last-child {
+	padding-bottom: 0px;
+}
+.LastSetIconBox ul li {
+    list-style: none;
+    float: left;
+    width: 17px;
+    height: 17px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    margin: 5px;
+    border-radius: 100%;
+		transition: 0.10s;
+}
+.LastSetIconBox ul li:hover {
+    background: #ffffff;
+		color: black;
+
+}
+.LastSetIconBox ul li:hover a{
+color: black;
+}
+.LastSetIconBox ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 1px;
+}
+
+
+
+
+
+
+/*futter is istrad*/
+ .FfullBoxWhapper
+{
+padding-top: 62px;
+overflow: hidden;
+background: #1a1a1a;
+}
+
+.fBoxWhapper {
+    padding-bottom: 21px;
+}
+.fBoxWhapper {
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.ftunderline {
+    border-bottom: 1px solid #dcdcdc4a;
+}
+.fullBoxWhapper {
+    padding-top: 28px;
+    padding-bottom: 62px;
+}
+.Fbox {
+    float: left;
+    width: 270px;
+    margin-right: 40px;
+    overflow: hidden;
+    color: #fff;
+    font-family: oswald;
+}
+.Fbox:last-child{
+	 margin-right: 0px;
+}
+.Fbox h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Fbox p {
+    font-family: none;
+    font-weight: 200;
+    word-spacing: 1px;
+    font-size: 18px;
+    color: #ababab;
+    margin-bottom: 20px;
+	  font-size: 20px;
+}
+.fboxsIcon {
+    float: left;
+}
+.FboxsTex {
+    padding-left: 31px;
+		font-size: 20px;
+}
+.fboxsIcon i {
+    color: #fb5200;
+}
+ul#ful li {
+    float: left;
+    list-style: none;
+    padding-right: 22px;
+
+}
+ul#ful li a i {
+   color: #ababab;
+	 transition: 0.7s;
+}
+ul#ful li:hover a i {
+    color: #fb4000;
+}
+.Fboxs span {
+    float: left;
+    color: #ababab;
+	padding-bottom: 12px;
+
+}
+.Fboxs span i {
+    padding-right: 10px;
+}
+.fboxthree  li {
+    list-style: none;
+    border-bottom: 1px dashed grey;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+div#fboxthree ul li {
+    border-bottom: 1px dashed #505050;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 13px;
+    letter-spacing: 1px;
+	  transition: 0.7s;
+}
+div#fboxthree ul li a{
+ transition: 0.7s;
+}
+div#fboxthree ul li a i{
+	 transition: 0.7s;
+}
+div#fboxthree ul li:hover a {
+	color:#fb2400;
+}
+div#fboxthree ul li:hover a i{
+	color:#fb2400;
+}
+div#fboxthree ul li:last-child {
+	border-bottom: none;
+}
+div#fboxthree ul li a {
+    text-decoration: none;
+    color: #ababab;
+    font-weight: 300;
+		font-size: 15px;
+}
+div#fboxthree ul li a i {
+    margin-right: 10px;
+    color: #ababab;
+}
+.LastBox {
+    overflow: hidden;
+}
+.FmBox {
+    overflow: hidden;
+    float: left;
+    width: 33px;
+    font-size: 8px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 22px;
+    background: #313131;
+    text-align: center;
+    border-radius: 4px;
+}
+.FmBox h2 {
+    font-size: 22px;
+}
+.FmBoxs h1 {
+    font-size: 17px;
+    font-family: oswald;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #ababab;
+  	transition:0.7s;
+}
+.FmBoxs h1:hover {
+  	color:#fb2400;
+}
+.FmBoxs span {
+    font-size: 10px;
+    margin-right: 10px;
+    font-weight: 200;
+}
+.FmBoxs span i {
+    font-size: 14px;
+    margin-right: 6px;
+}
+.FmBoxs span small {
+    font-size: 12px;
+  	color:#ababab;
+}
+.fBoxWhapper {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.frConTen {
+    float: left;
+    color: #ababab;
+}
+.frConTen p {
+    margin-top: 12px;
+}
+.frConTen:last-child {
+    float: right;
+}
+.frConTen:last-child ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+.frConTen:last-child ul li a {
+    text-decoration: none;
+    color: #ababab;
+    cursor: pointer;
+}
